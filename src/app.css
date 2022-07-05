@@ -1,0 +1,125 @@
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+html{
+    height: 100%;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+
+p{
+    font-size: 9px;
+}
+
+
+.containerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+
+.container{
+    width: 55%;
+    text-align: center;
+    z-index: 1;
+    background: white;
+    padding: 20px
+}
+
+body {
+	overflow: hidden;
+}
+
+button{
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+button:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.wrap {
+	margin: -500px 0 0 0;
+    position: absolute;
+}
+.row {
+	height: 60px;
+	white-space: nowrap;
+}
+.row > div {
+	width: 0;
+	height: 0;
+	border: 150px solid transparent;
+	border-bottom: 300px solid #cc2133;
+	position: relative;
+	display: inline-block;
+	margin-left: -70px;
+	-webkit-filter: drop-shadow(-12px 10px 10px rgba(0, 0, 0, 0.4));
+	filter: drop-shadow(-12px 10px 10px rgba(0, 0, 0, 0.4));
+}
+.row:nth-child(5n) > div {
+	border-bottom-color: #cc2133;
+}
+.row:nth-child(5n+1) > div {
+	border-bottom-color: #d35a45;
+}
+.row:nth-child(5n+2) > div {
+	border-bottom-color: #f6d633;
+}
+.row:nth-child(5n+3) > div {
+	border-bottom-color: #b8d6a2;
+}
+.row:nth-child(5n+4) > div {
+	border-bottom-color: #1e3a50;
+}
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
